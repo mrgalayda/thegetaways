@@ -17,13 +17,13 @@ body{
 h1{
 	margin: 0;
 	padding: 0;
-	line-height: 72px;
-	font-size: 72px;
+	line-height: 48px;
+	font-size: 48px;
 	color: rgba(255,255,255,0.7);
 }
 .banner-wrapper{
 	padding-top: 25vh;
-	width: 440px;
+	max-width: 440px;
 	margin: 0 auto;
 
 }

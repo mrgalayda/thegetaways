@@ -1,3 +1,15 @@
+@font-face {
+    font-family: 'FondueW00';
+    src: url('../fonts/FondueW00-Heavy.eot');
+    src: url('../fonts/FondueW00-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/FondueW00-Heavy.woff2') format('woff2'),
+        url('../fonts/FondueW00-Heavy.woff') format('woff'),
+        url('../fonts/FondueW00-Heavy.ttf') format('truetype'),
+        url('../fonts/FondueW00-Heavy.svg#FondueW00-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
 html{
 		margin: 0;
 	padding: 0;
@@ -5,6 +17,7 @@ html{
 body{
 	margin: 0;
 	padding: 0;
+	font-family: arial;
 }
 .banner{
 	margin: 0;
@@ -15,6 +28,7 @@ body{
 	background-size: cover;
 }
 h1{
+    font-family: 'FondueW00';
 	margin: 0;
 	padding: 0;
 	line-height: 48px;
@@ -30,10 +44,12 @@ h1{
 .banner-wrapper p{
 	text-align: center;
 	color: rgba(255,255,255,1);
-
+	font-size: 12px;
+	font-style: italic;
 }
 .banner-wrapper h1{
 	text-align: center;
 	color: rgba(255,255,255,0.9);
 
 }
+

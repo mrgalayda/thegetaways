@@ -45,37 +45,6 @@ p a{
 	padding: 16px;
 	border-radius: 4px;
 }
-.streamer{
-	position: relative;
-	display: inline-block;
-}
-.streamer:after{
-    display: block;
-	position: absolute;
-	z-index: 100;
-	top: 10px;
-	right: calc(-100vw - 20px);
-    content: " ";
-    background-color: #efedcf;
-    margin-left: 20px;
-    width: 100vw;
-    height: 90px;
-    box-shadow: -6px 5px 0 #f78d75;
-}
-.streamer:before{
-    display: block;
-	position: absolute;
-	z-index: 100;
-	top: 10px;
-	left: calc(-100vw - 30px);
-    content: " ";
-    background-color: #efedcf;
-    margin-left: 20px;
-    width: 100vw;
-    height: 90px;
-    box-shadow: -6px 5px 0 #f78d75;
-}
-
 .banner-wrapper{
 	padding-top: 15vh;
 	margin: 0 auto;
@@ -109,7 +78,5 @@ p a{
 	margin: -40vh auto 0 auto;
 }
 @media screen and (max-width: 400px) {
-	.banner-wrapper{
-		transform: scale(0.5) rotate(-23deg);
-	}
+
 }

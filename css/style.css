@@ -7,8 +7,8 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family: avenir;
-	color: #efedcf;
-	background-color: #f1584e;
+	color: #dbdccc;
+	background-color: #dbdccc;
 }
 .banner{
 	margin: 0;
@@ -29,7 +29,7 @@ h1{
 
 h2{
 	font-size: 18px;
-	color: #efedcf;
+	color: #2d143c;
 	font-style: italic;
 	font-weight: normal;
 }
@@ -40,7 +40,7 @@ ul li{
 }
 p a{
 	color: black;
-	background-color: #efedcf;
+	background-color: #d42d41;
 	display: inline-block;
 	padding: 16px;
 	border-radius: 4px;
